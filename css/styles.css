@@ -1,0 +1,53 @@
+body{
+
+}
+
+/* Webstudio */
+#link-1{
+    text-decoration: none;
+    color: #2196F3;
+    font-size: 24px;
+}
+
+/* lista de los link del header */
+.li-1{
+    display: inline;
+}
+
+.ul-1 .links-1{
+    outline: none;
+    text-decoration: none;
+    color:#212121   
+}
+
+.links-1:hover {
+    color: #2196F3
+}
+
+.links-1:focus {
+    color:orange
+}
+
+.p-active {
+    outline: none;
+    text-decoration: none;
+    color: #2196F3
+}
+
+#ul-2-header > li{
+    display: inline;
+}
+
+#ul-2-header > li > a {
+    outline: none;
+    text-decoration: none;
+    color: #212121
+}
+
+#ul-2-header>li>a:hover {
+    color: #2196F3
+}
+
+#ul-2-header>li>a:focus {
+    color: orange
+}
