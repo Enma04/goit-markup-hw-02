@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portafolio</title>
   </head>
@@ -12,7 +18,7 @@
       <section id="section-1-header">
         <nav>
           <!-- "noreferer" y "noopener" sirven para evitar la filtración de información de usuario -->
-          <a href="#" rel="noreferer noopener" id="link-1">WebStudio</a>
+          <a href="#" rel="noreferer noopener" class="web-studio">WebStudio</a>
           <ul class="ul-1">
             <li class="li-1">
               <a href="./index.html" rel="noreferer noopener" class="links-1"
@@ -61,15 +67,15 @@
       <!-- SECCIÓN 1 -->
       <section>
         <ul class="u-list-1">
-          <li class="ul-1-buttons"><button type="button">Todo</button></li>
-          <li class="ul-1-buttons">
-            <button type="button">Sitios web</button>
+          <li><button type="button" class="ul-1-buttons">Todo</button></li>
+          <li>
+            <button type="button" class="ul-1-buttons">Sitios web</button>
           </li>
-          <li class="ul-1-buttons">
-            <button type="button">Aplicaciones</button>
+          <li>
+            <button type="button" class="ul-1-buttons">Aplicaciones</button>
           </li>
-          <li class="ul-1-buttons"><button type="button">Diseño</button></li>
-          <li class="ul-1-buttons"><button type="button">Marketing</button></li>
+          <li><button type="button" class="ul-1-buttons">Diseño</button></li>
+          <li><button type="button" class="ul-1-buttons">Marketing</button></li>
         </ul>
 
         <ul class="u-list-2">
@@ -157,12 +163,14 @@
 
     <!-- FOOTER -->
     <footer>
-      <a href="#" target="_blank" rel="noreferer noopener">WebStudio</a>
+      <a href="#" target="_blank" rel="noreferer noopener" class="web-studio"
+        >WebStudio</a
+      >
       <address>
         Calz. Ticomán 500,<br />
         Ciudad de México, CDMX, México
       </address>
-      <ul>
+      <ul class="ul-footer">
         <li>
           <a
             href="mailto:info@devstudio.com"
