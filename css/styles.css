@@ -23,13 +23,17 @@ body{
 }
 
 #title-h1{
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 900;
 }
 
-/* lista de los link del header */
-.li-1{
-    display: inline;
+#sec-1{
+    background-color: #212121;
+    color: aliceblue;
+}
+
+.ul-1{
+    list-style-type: none;
 }
 
 .ul-1 .links-1{
@@ -53,7 +57,7 @@ body{
 }
 
 #ul-2-header > li{
-    display: inline;
+    list-style-type: none;
 }
 
 #ul-2-header > li > a {
@@ -72,7 +76,7 @@ body{
 }
 
 .u-list-1 > li{
-    display: inline;
+    list-style-type: none;
 }
 
 #boton1{
@@ -97,8 +101,8 @@ body{
     background-color: #2196F3;
 }
 
-#img-list>li, #our-team-list>li{
-    display: inline;
+#img-list, #our-team-list{
+    list-style-type: none;
 }
 
 .u-list-2>li>h3{
@@ -120,6 +124,10 @@ body{
     font-weight: 700;
 }
 
+#list-about-us{
+    list-style-type: none;
+}
+
 #list-about-us>li>h3{
     font-weight: 700;
     text-transform: uppercase;
@@ -128,12 +136,14 @@ body{
 #our-team-list>li>h3{
     font-size: 16px;
     font-weight: 500;
+    text-align: center;
 }
 
 #our-team-list>li>p {
     font-size: 16px;
     font-weight: 400;
     color: #757575;
+    text-align: center;
 }
 
 .parrafos{
@@ -153,5 +163,10 @@ body{
 .ul-footer>li>a {
     outline: none;
     text-decoration: none;
-    color: #757575;
+    color: #8f8b8b;
+}
+
+#sec-footer{
+    background-color: #212121;
+    color: aliceblue;
 }
