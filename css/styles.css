@@ -83,8 +83,8 @@ body{
 
 .boton1{
     font-family: inherit;
-    font-size: 17px;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 700;
     background-color:var(--blue-color);
     color: aliceblue;
     border: none;
@@ -103,6 +103,7 @@ body{
 .filter-buttons{
     padding: 10px;
     font-size: 16px;
+    font-weight: 500;
     font-family: inherit;
     cursor: pointer;
     border-radius: 4px;
